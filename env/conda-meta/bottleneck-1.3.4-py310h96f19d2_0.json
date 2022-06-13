@@ -1,0 +1,574 @@
+{
+  "build": "py310h96f19d2_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.21.2,<2.0a0",
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/bottleneck-1.3.4-py310h96f19d2_0",
+  "features": "",
+  "files": [
+    "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/INSTALLER",
+    "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/LICENSE",
+    "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/METADATA",
+    "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/RECORD",
+    "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/REQUESTED",
+    "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/WHEEL",
+    "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/direct_url.json",
+    "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/top_level.txt",
+    "lib/python3.10/site-packages/bottleneck/__init__.py",
+    "lib/python3.10/site-packages/bottleneck/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/__pycache__/_pytesttester.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/__pycache__/_version.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/_pytesttester.py",
+    "lib/python3.10/site-packages/bottleneck/_version.py",
+    "lib/python3.10/site-packages/bottleneck/benchmark/__init__.py",
+    "lib/python3.10/site-packages/bottleneck/benchmark/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/benchmark/__pycache__/autotimeit.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/benchmark/__pycache__/bench.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/benchmark/__pycache__/bench_detailed.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/benchmark/autotimeit.py",
+    "lib/python3.10/site-packages/bottleneck/benchmark/bench.py",
+    "lib/python3.10/site-packages/bottleneck/benchmark/bench_detailed.py",
+    "lib/python3.10/site-packages/bottleneck/move.cpython-310-darwin.so",
+    "lib/python3.10/site-packages/bottleneck/nonreduce.cpython-310-darwin.so",
+    "lib/python3.10/site-packages/bottleneck/nonreduce_axis.cpython-310-darwin.so",
+    "lib/python3.10/site-packages/bottleneck/reduce.cpython-310-darwin.so",
+    "lib/python3.10/site-packages/bottleneck/slow/__init__.py",
+    "lib/python3.10/site-packages/bottleneck/slow/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/slow/__pycache__/move.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/slow/__pycache__/nonreduce.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/slow/__pycache__/nonreduce_axis.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/slow/__pycache__/reduce.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/slow/move.py",
+    "lib/python3.10/site-packages/bottleneck/slow/nonreduce.py",
+    "lib/python3.10/site-packages/bottleneck/slow/nonreduce_axis.py",
+    "lib/python3.10/site-packages/bottleneck/slow/reduce.py",
+    "lib/python3.10/site-packages/bottleneck/src/__init__.py",
+    "lib/python3.10/site-packages/bottleneck/src/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/src/__pycache__/bn_config.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/src/__pycache__/bn_template.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/src/bn_config.py",
+    "lib/python3.10/site-packages/bottleneck/src/bn_template.py",
+    "lib/python3.10/site-packages/bottleneck/tests/__init__.py",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/__init__.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/common.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/input_modification_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/list_input_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/memory_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/move_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/nonreduce_axis_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/nonreduce_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/reduce_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/scalar_input_test.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/test_template.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/__pycache__/util.cpython-310.pyc",
+    "lib/python3.10/site-packages/bottleneck/tests/common.py",
+    "lib/python3.10/site-packages/bottleneck/tests/input_modification_test.py",
+    "lib/python3.10/site-packages/bottleneck/tests/list_input_test.py",
+    "lib/python3.10/site-packages/bottleneck/tests/memory_test.py",
+    "lib/python3.10/site-packages/bottleneck/tests/move_test.py",
+    "lib/python3.10/site-packages/bottleneck/tests/nonreduce_axis_test.py",
+    "lib/python3.10/site-packages/bottleneck/tests/nonreduce_test.py",
+    "lib/python3.10/site-packages/bottleneck/tests/reduce_test.py",
+    "lib/python3.10/site-packages/bottleneck/tests/scalar_input_test.py",
+    "lib/python3.10/site-packages/bottleneck/tests/test_template.py",
+    "lib/python3.10/site-packages/bottleneck/tests/util.py"
+  ],
+  "fn": "bottleneck-1.3.4-py310h96f19d2_0.conda",
+  "legacy_bz2_md5": "d2fe4fdfc0d92227347c8e3697c04a34",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/bottleneck-1.3.4-py310h96f19d2_0",
+    "type": 1
+  },
+  "md5": "efc989a0b3ef1f38f64404769c4c297c",
+  "name": "bottleneck",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/bottleneck-1.3.4-py310h96f19d2_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f196618c1d51dfe6f7813e5ac6e2092b7b08266f45c6f033c7cad2a65cc80004",
+        "sha256_in_prefix": "f196618c1d51dfe6f7813e5ac6e2092b7b08266f45c6f033c7cad2a65cc80004",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "16f22d6d139a66ee7ece6629c3d1fce9153973d4cd2aed1025100753ac9b1fa2",
+        "sha256_in_prefix": "16f22d6d139a66ee7ece6629c3d1fce9153973d4cd2aed1025100753ac9b1fa2",
+        "size_in_bytes": 7484
+      },
+      {
+        "_path": "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9f20e6e9feef131f5e1ca9072e4c631044a011871b417265393ad44ef8bdf74c",
+        "sha256_in_prefix": "9f20e6e9feef131f5e1ca9072e4c631044a011871b417265393ad44ef8bdf74c",
+        "size_in_bytes": 5046
+      },
+      {
+        "_path": "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8c6e41a17df6261b33d922dca9194fcf8e7ef15b77451cd122c7bfaea1c75f74",
+        "sha256_in_prefix": "8c6e41a17df6261b33d922dca9194fcf8e7ef15b77451cd122c7bfaea1c75f74",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "0b73b0376e78e2ac030412c64f9074af88cf33127bce7847f472e4642a7b8b72",
+        "sha256_in_prefix": "0b73b0376e78e2ac030412c64f9074af88cf33127bce7847f472e4642a7b8b72",
+        "size_in_bytes": 139
+      },
+      {
+        "_path": "lib/python3.10/site-packages/Bottleneck-1.3.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7ffeb02c33b1608b1deab651242c6991bbc88a0b9a3b1cce096e7dec49b06630",
+        "sha256_in_prefix": "7ffeb02c33b1608b1deab651242c6991bbc88a0b9a3b1cce096e7dec49b06630",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d6ac170d53a736e49c959e5e83dde921f3e6de761672cad727a912c0e5e6910c",
+        "sha256_in_prefix": "d6ac170d53a736e49c959e5e83dde921f3e6de761672cad727a912c0e5e6910c",
+        "size_in_bytes": 889
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "905f24e270a6c79abf7956bf47d45e4c8512c274463489c851b5cf7d732b837d",
+        "sha256_in_prefix": "905f24e270a6c79abf7956bf47d45e4c8512c274463489c851b5cf7d732b837d",
+        "size_in_bytes": 1199
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/__pycache__/_pytesttester.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0f3e173adee2b97be5daa053e3fd40bbf06470628fbf479b7cc32bd5e881af3f",
+        "sha256_in_prefix": "0f3e173adee2b97be5daa053e3fd40bbf06470628fbf479b7cc32bd5e881af3f",
+        "size_in_bytes": 1988
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/__pycache__/_version.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "837dcdbc3c899d4d04be8fff7ecb8d3f94ad30b114d74f6a6522a872af53c46e",
+        "sha256_in_prefix": "837dcdbc3c899d4d04be8fff7ecb8d3f94ad30b114d74f6a6522a872af53c46e",
+        "size_in_bytes": 468
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/_pytesttester.py",
+        "path_type": "hardlink",
+        "sha256": "a65b40ada7dcba56df8006447f6c2234d514af27dc64fb83c38294b417802521",
+        "sha256_in_prefix": "a65b40ada7dcba56df8006447f6c2234d514af27dc64fb83c38294b417802521",
+        "size_in_bytes": 2069
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/_version.py",
+        "path_type": "hardlink",
+        "sha256": "1588dc41bf63f08422086fb3e25a5b698cf815717285c7e7c671476cb6fed643",
+        "sha256_in_prefix": "1588dc41bf63f08422086fb3e25a5b698cf815717285c7e7c671476cb6fed643",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/benchmark/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/benchmark/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b22f1c089af1e0f2dedaafa2b52155807a35ba67f04aeb2b264b0db0f5f5c370",
+        "sha256_in_prefix": "b22f1c089af1e0f2dedaafa2b52155807a35ba67f04aeb2b264b0db0f5f5c370",
+        "size_in_bytes": 154
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/benchmark/__pycache__/autotimeit.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6410d9e0275a03eab6b2666a0869c424f90042a86e1c07b9b289e77f91a34ed1",
+        "sha256_in_prefix": "6410d9e0275a03eab6b2666a0869c424f90042a86e1c07b9b289e77f91a34ed1",
+        "size_in_bytes": 745
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/benchmark/__pycache__/bench.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d066f0d7e2390051728b64ea7285a4f50b21cab4383abe4b9145d04155cae04",
+        "sha256_in_prefix": "0d066f0d7e2390051728b64ea7285a4f50b21cab4383abe4b9145d04155cae04",
+        "size_in_bytes": 6036
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/benchmark/__pycache__/bench_detailed.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b96f46049a8269cf518105e18562e4731d15b3f4f97b6bb3943e8c3b12d84ba1",
+        "sha256_in_prefix": "b96f46049a8269cf518105e18562e4731d15b3f4f97b6bb3943e8c3b12d84ba1",
+        "size_in_bytes": 4435
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/benchmark/autotimeit.py",
+        "path_type": "hardlink",
+        "sha256": "af8ed40a4f62f2172482b75cbab826e21d64e72c8e499824d4d3d86f5b405477",
+        "sha256_in_prefix": "af8ed40a4f62f2172482b75cbab826e21d64e72c8e499824d4d3d86f5b405477",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/benchmark/bench.py",
+        "path_type": "hardlink",
+        "sha256": "e13d1c1187ca97c603ec76c67bffb56037cf0372a53a4cb790a6d05aa5977412",
+        "sha256_in_prefix": "e13d1c1187ca97c603ec76c67bffb56037cf0372a53a4cb790a6d05aa5977412",
+        "size_in_bytes": 6887
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/benchmark/bench_detailed.py",
+        "path_type": "hardlink",
+        "sha256": "f0220ce49d8864bf2ceff0260090ad3c98523add90a08dcbf2e2e93959528c68",
+        "sha256_in_prefix": "f0220ce49d8864bf2ceff0260090ad3c98523add90a08dcbf2e2e93959528c68",
+        "size_in_bytes": 5958
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/move.cpython-310-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-q_dytog6/bottleneck_1648041541248/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "8bb6eb454204091afbc7bea3c6edeb9d640528d7d9d4f67192ebe9e8a44b91d7",
+        "sha256_in_prefix": "2536116c5785f80980b288ae4c5cc6d5ef6edd461d26d05f40aa5bcaca8ac2b0",
+        "size_in_bytes": 128128
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/nonreduce.cpython-310-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-q_dytog6/bottleneck_1648041541248/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "ed131737b0c30efccab4eb6bd4f8df19cd0762381c1b41c5c2874ece281c6deb",
+        "sha256_in_prefix": "a346739b19e6ec6e63cfbc68d212f1cd436fbcaa71be48873286595267d27401",
+        "size_in_bytes": 69936
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/nonreduce_axis.cpython-310-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-q_dytog6/bottleneck_1648041541248/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "e1280f42b226c590aae3fece5a95430fb671a217e7f7834e3bbd10a46e931af3",
+        "sha256_in_prefix": "e8e969a7a70e0c3d1a5b8dce66e215b6a0e1373ab6745474cc87c036b14228cd",
+        "size_in_bytes": 89584
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/reduce.cpython-310-darwin.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/nz/j6p8yfhx1mv_0grj5xl4650h0000gp/T/abs_croot-q_dytog6/bottleneck_1648041541248/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "79a38f5dab17afff2d00bfd4e22661fe1946ca20f6a2ce757c68d61ba4cd534c",
+        "sha256_in_prefix": "176fc8d316926b2efd3e694d628763f44b450f30a032af5d99c4a6122bd4d2c0",
+        "size_in_bytes": 134432
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/slow/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "1771eacbd7721a929e639d2e864aeec9ef1aa6deb94f8f07484db44e663fdb74",
+        "sha256_in_prefix": "1771eacbd7721a929e639d2e864aeec9ef1aa6deb94f8f07484db44e663fdb74",
+        "size_in_bytes": 173
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/slow/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "91b3707600f7b2d7b9dc154b865913516e98a69a244a80a85a696d0435076dee",
+        "sha256_in_prefix": "91b3707600f7b2d7b9dc154b865913516e98a69a244a80a85a696d0435076dee",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/slow/__pycache__/move.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "84510c9841e9499df45ce07e29a38756ce517c67b17c8b00da76da65977589d9",
+        "sha256_in_prefix": "84510c9841e9499df45ce07e29a38756ce517c67b17c8b00da76da65977589d9",
+        "size_in_bytes": 6734
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/slow/__pycache__/nonreduce.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5412196a3060f39229896f260147437a9829a0ccc8ead07dc1059359fcacf05d",
+        "sha256_in_prefix": "5412196a3060f39229896f260147437a9829a0ccc8ead07dc1059359fcacf05d",
+        "size_in_bytes": 702
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/slow/__pycache__/nonreduce_axis.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "067766e1bfb98455921f556a51820d668b4f216c72fea88d8a8ad7e45ae010ce",
+        "sha256_in_prefix": "067766e1bfb98455921f556a51820d668b4f216c72fea88d8a8ad7e45ae010ce",
+        "size_in_bytes": 4690
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/slow/__pycache__/reduce.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5111018bf255d20d0b4475ceb04717abe563d63caa4037ec2da05607f52e0eab",
+        "sha256_in_prefix": "5111018bf255d20d0b4475ceb04717abe563d63caa4037ec2da05607f52e0eab",
+        "size_in_bytes": 2576
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/slow/move.py",
+        "path_type": "hardlink",
+        "sha256": "a87c98dd14cb3dae6e4695044831dc0b71a3a7983ae7db564f12aa5759e7c774",
+        "sha256_in_prefix": "a87c98dd14cb3dae6e4695044831dc0b71a3a7983ae7db564f12aa5759e7c774",
+        "size_in_bytes": 7757
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/slow/nonreduce.py",
+        "path_type": "hardlink",
+        "sha256": "b88418e722713476ee9158af5337c963f330dcccabcab8ba839cbdfed8f17eae",
+        "sha256_in_prefix": "b88418e722713476ee9158af5337c963f330dcccabcab8ba839cbdfed8f17eae",
+        "size_in_bytes": 648
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/slow/nonreduce_axis.py",
+        "path_type": "hardlink",
+        "sha256": "620b09baab97d8343c418d8d14ccb88125cff418ca83db422408c9104f264498",
+        "sha256_in_prefix": "620b09baab97d8343c418d8d14ccb88125cff418ca83db422408c9104f264498",
+        "size_in_bytes": 5025
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/slow/reduce.py",
+        "path_type": "hardlink",
+        "sha256": "accece4628f761eb1bffd67425fbbc88605cb10e1b6fc109e8cfb2b43d52962a",
+        "sha256_in_prefix": "accece4628f761eb1bffd67425fbbc88605cb10e1b6fc109e8cfb2b43d52962a",
+        "size_in_bytes": 2337
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/src/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/src/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "5129a8e7119e026de9978df0c035426c498022e8a56b424051f654a82fafd7e7",
+        "sha256_in_prefix": "5129a8e7119e026de9978df0c035426c498022e8a56b424051f654a82fafd7e7",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/src/__pycache__/bn_config.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "58187df7df1e65bb8cfaca0320b82075af70c092b5b807277615b8334c171755",
+        "sha256_in_prefix": "58187df7df1e65bb8cfaca0320b82075af70c092b5b807277615b8334c171755",
+        "size_in_bytes": 3475
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/src/__pycache__/bn_template.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "414bc22daa8ca53e70899c625875ddb65e22f47d3b02422cbc6f07a8f4899579",
+        "sha256_in_prefix": "414bc22daa8ca53e70899c625875ddb65e22f47d3b02422cbc6f07a8f4899579",
+        "size_in_bytes": 5657
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/src/bn_config.py",
+        "path_type": "hardlink",
+        "sha256": "482e34e450ad0173db61aa6d73019ca2a62cc5f347f8231624eff24f13d8c9c9",
+        "sha256_in_prefix": "482e34e450ad0173db61aa6d73019ca2a62cc5f347f8231624eff24f13d8c9c9",
+        "size_in_bytes": 3199
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/src/bn_template.py",
+        "path_type": "hardlink",
+        "sha256": "7644e0f10664365a83747c6bd20e436874d0889dfd652df1e32ebd88f8571c63",
+        "sha256_in_prefix": "7644e0f10664365a83747c6bd20e436874d0889dfd652df1e32ebd88f8571c63",
+        "size_in_bytes": 6753
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/__init__.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "f15988edf00777f656386664b43662c08e225e00f042259b254082c9d2a357ad",
+        "sha256_in_prefix": "f15988edf00777f656386664b43662c08e225e00f042259b254082c9d2a357ad",
+        "size_in_bytes": 150
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/common.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "08f1f8f5893d26c8fd0368ae2eef3653b63719c675280dc9d1a7f638caa70340",
+        "sha256_in_prefix": "08f1f8f5893d26c8fd0368ae2eef3653b63719c675280dc9d1a7f638caa70340",
+        "size_in_bytes": 499
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/input_modification_test.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a4f12c92cd158aa1d248b5ed3bf9a26edaaa61e06fa3daf3e59c61da3850bd1",
+        "sha256_in_prefix": "6a4f12c92cd158aa1d248b5ed3bf9a26edaaa61e06fa3daf3e59c61da3850bd1",
+        "size_in_bytes": 2594
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/list_input_test.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "9307756d360479d04752ef55b88e4458d0d9696d0eb047d6f8668b6b729e39d0",
+        "sha256_in_prefix": "9307756d360479d04752ef55b88e4458d0d9696d0eb047d6f8668b6b729e39d0",
+        "size_in_bytes": 1864
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/memory_test.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a480814c28dcbd45ca05d3de78200f94d691c95bdd09e260cbe6a4a3c1a9e8a1",
+        "sha256_in_prefix": "a480814c28dcbd45ca05d3de78200f94d691c95bdd09e260cbe6a4a3c1a9e8a1",
+        "size_in_bytes": 1016
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/move_test.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5269b02722d5b53b5e92a7dea2de4ea27bfa9c9168e8045e737189993c99a70",
+        "sha256_in_prefix": "b5269b02722d5b53b5e92a7dea2de4ea27bfa9c9168e8045e737189993c99a70",
+        "size_in_bytes": 5304
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/nonreduce_axis_test.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "bdd86d7d182c05ae51b81aa5c27a816e7df4489303c84f6498bb33cc46d37657",
+        "sha256_in_prefix": "bdd86d7d182c05ae51b81aa5c27a816e7df4489303c84f6498bb33cc46d37657",
+        "size_in_bytes": 6236
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/nonreduce_test.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b5b04c89fc149a726095331440a9ef43b8c24339465d895315859624f7ab94c3",
+        "sha256_in_prefix": "b5b04c89fc149a726095331440a9ef43b8c24339465d895315859624f7ab94c3",
+        "size_in_bytes": 4165
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/reduce_test.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "dd9d12e75a68a0313b7a2a421aa745aaad8fdcda65c7a633b1863269834706f7",
+        "sha256_in_prefix": "dd9d12e75a68a0313b7a2a421aa745aaad8fdcda65c7a633b1863269834706f7",
+        "size_in_bytes": 5675
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/scalar_input_test.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b83ab5f4e392606867b55db6acd9695f85b4f9d0de14c8442495e68eb0f1e7b0",
+        "sha256_in_prefix": "b83ab5f4e392606867b55db6acd9695f85b4f9d0de14c8442495e68eb0f1e7b0",
+        "size_in_bytes": 1007
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/test_template.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "b596119fa622579ff201b43fbb3905fd7ce66e7dd0f9f68043eada453e69cd2a",
+        "sha256_in_prefix": "b596119fa622579ff201b43fbb3905fd7ce66e7dd0f9f68043eada453e69cd2a",
+        "size_in_bytes": 835
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/__pycache__/util.cpython-310.pyc",
+        "path_type": "hardlink",
+        "sha256": "a217aa1edf98f0fc58a81515a8170ba411170f40309c50c9e909b9ba98a6a9d3",
+        "sha256_in_prefix": "a217aa1edf98f0fc58a81515a8170ba411170f40309c50c9e909b9ba98a6a9d3",
+        "size_in_bytes": 4401
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/common.py",
+        "path_type": "hardlink",
+        "sha256": "15b7b94fa8170daa3684266e9349d4b36d8bf0097eb6509ac91fba0a7b11c6fe",
+        "sha256_in_prefix": "15b7b94fa8170daa3684266e9349d4b36d8bf0097eb6509ac91fba0a7b11c6fe",
+        "size_in_bytes": 450
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/input_modification_test.py",
+        "path_type": "hardlink",
+        "sha256": "ac01618130f9371f04ba9182cce34e5de35f69c8b6361c0e1b6b3cbea6c96460",
+        "sha256_in_prefix": "ac01618130f9371f04ba9182cce34e5de35f69c8b6361c0e1b6b3cbea6c96460",
+        "size_in_bytes": 2459
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/list_input_test.py",
+        "path_type": "hardlink",
+        "sha256": "2b2b2eb2a87c1b354aef17a2e536a615c72990944d311895dc942ff8ff7e1be1",
+        "sha256_in_prefix": "2b2b2eb2a87c1b354aef17a2e536a615c72990944d311895dc942ff8ff7e1be1",
+        "size_in_bytes": 1630
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/memory_test.py",
+        "path_type": "hardlink",
+        "sha256": "5573c9f5a4cc084f040a82ecfb7073cef75e9fd737fd0e22c4965797f254208e",
+        "sha256_in_prefix": "5573c9f5a4cc084f040a82ecfb7073cef75e9fd737fd0e22c4965797f254208e",
+        "size_in_bytes": 984
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/move_test.py",
+        "path_type": "hardlink",
+        "sha256": "6da43aeb046b8ddeea1a921ecaec7b60733343e3a0dd77ea5ac7244fa39c5e69",
+        "sha256_in_prefix": "6da43aeb046b8ddeea1a921ecaec7b60733343e3a0dd77ea5ac7244fa39c5e69",
+        "size_in_bytes": 7644
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/nonreduce_axis_test.py",
+        "path_type": "hardlink",
+        "sha256": "61398b033bdd91919a000521c0bdb60e0c7e2c92982467c2c79e9a00319f17fc",
+        "sha256_in_prefix": "61398b033bdd91919a000521c0bdb60e0c7e2c92982467c2c79e9a00319f17fc",
+        "size_in_bytes": 7600
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/nonreduce_test.py",
+        "path_type": "hardlink",
+        "sha256": "321c656dcbc16a785fc26f93234a24c68c47a6ae5fd31d46c51e29b0c193c3a2",
+        "sha256_in_prefix": "321c656dcbc16a785fc26f93234a24c68c47a6ae5fd31d46c51e29b0c193c3a2",
+        "size_in_bytes": 4841
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/reduce_test.py",
+        "path_type": "hardlink",
+        "sha256": "753152b91850a4665402cd01c413b3718db3fed8001983357523067658da42c4",
+        "sha256_in_prefix": "753152b91850a4665402cd01c413b3718db3fed8001983357523067658da42c4",
+        "size_in_bytes": 8012
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/scalar_input_test.py",
+        "path_type": "hardlink",
+        "sha256": "8172e508c150b4fde8cd037afe8e1ee2f211acd4be718b6896335b2f2416d54c",
+        "sha256_in_prefix": "8172e508c150b4fde8cd037afe8e1ee2f211acd4be718b6896335b2f2416d54c",
+        "size_in_bytes": 779
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/test_template.py",
+        "path_type": "hardlink",
+        "sha256": "0ac6a3854afb71bdccca3b8ca1d5772f084609511c8106e14e0ff46e979f8dc7",
+        "sha256_in_prefix": "0ac6a3854afb71bdccca3b8ca1d5772f084609511c8106e14e0ff46e979f8dc7",
+        "size_in_bytes": 651
+      },
+      {
+        "_path": "lib/python3.10/site-packages/bottleneck/tests/util.py",
+        "path_type": "hardlink",
+        "sha256": "0571935339a580a8e309b97e67f97b2689989e733c4a591dffd67747d7951594",
+        "sha256_in_prefix": "0571935339a580a8e309b97e67f97b2689989e733c4a591dffd67747d7951594",
+        "size_in_bytes": 6207
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4da62deb4db0ab959d0358a745fc8b504e118f2239f35f1d760420d3d78f9870",
+  "size": 105152,
+  "subdir": "osx-arm64",
+  "timestamp": 1648041594409,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/bottleneck-1.3.4-py310h96f19d2_0.conda",
+  "version": "1.3.4"
+}

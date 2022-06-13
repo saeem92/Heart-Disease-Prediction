@@ -1,0 +1,35 @@
+{
+  "build": "11_2_0_he6877d6_26",
+  "build_number": 26,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-arm64",
+  "constrains": [],
+  "depends": [
+    "libgfortran5"
+  ],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libgfortran-5.0.0-11_2_0_he6877d6_26",
+  "features": "",
+  "files": [],
+  "fn": "libgfortran-5.0.0-11_2_0_he6877d6_26.conda",
+  "legacy_bz2_md5": "e3fbe63a3f00e6956f6a7507828a07f7",
+  "license": "GPL-3.0-only WITH GCC-exception-3.1",
+  "license_family": "GPL",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libgfortran-5.0.0-11_2_0_he6877d6_26",
+    "type": 1
+  },
+  "md5": "c202884a43db6ed2200360453499356e",
+  "name": "libgfortran",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libgfortran-5.0.0-11_2_0_he6877d6_26.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c77b21db091b918ada4674ecef36f356e07b10b3507ac3974551c03d87ad744b",
+  "size": 21954,
+  "subdir": "osx-arm64",
+  "timestamp": 1652877896685,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-arm64/libgfortran-5.0.0-11_2_0_he6877d6_26.conda",
+  "version": "5.0.0"
+}
